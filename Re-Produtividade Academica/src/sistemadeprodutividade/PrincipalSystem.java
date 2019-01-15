@@ -557,7 +557,6 @@ public class PrincipalSystem{
 										projects.get(currentproject).getProjectOrientation().add(neworientation);
 										if(contributors.get(mentorindex) instanceof Contributors) {
 											Professors current = (Professors) contributors.get(mentorindex);
-											System.out.println("here" + neworientation + projectname);
 											current.getOrientation().add(neworientation);
 											current.getAssociateProject().add(projectname);
 											totalorientations++;
