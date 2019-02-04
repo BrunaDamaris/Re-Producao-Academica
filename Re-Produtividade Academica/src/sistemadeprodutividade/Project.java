@@ -154,7 +154,7 @@ public class Project {
             	else if(first.getYearOfConclusion() < second.getYearOfConclusion()) return 1;
             	else {
             		if(first.getMonthOfConclusion() > second.getMonthOfConclusion()) return -1;
-            		else if(first.getMonthOfConclusion() > second.getMonthOfConclusion()) return 1;
+            		else if(first.getMonthOfConclusion() < second.getMonthOfConclusion()) return 1;
             		else {
             			if(first.getDayOfConclusion() > second.getDayOfConclusion()) return -1;
             			else if(first.getDayOfConclusion() < second.getDayOfConclusion()) return 1;
